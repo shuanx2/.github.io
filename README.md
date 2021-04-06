@@ -1,7 +1,7 @@
 # 计算机科学与编程入门课程第二次作业
 ## 学号 2000091833 姓名 沈攸晋  
 ## 1. 人物词频统计图
-基于《红楼梦》的人物词频统计结果，制作词频统计图  
+基于《红楼梦》的人物词频统计结果，制作三种词频统计图  
   
 [《红楼梦》人物词频统计-词云](https://shuanx2.github.io/name_count_wordcloud.html)  
 [《红楼梦》人物词频统计-柱状图](https://shuanx2.github.io/name_count_bar.html)  
