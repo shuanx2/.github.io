@@ -4,4 +4,6 @@
 基于第一周统计的《全球高考》人物词频统计结果，制作词频统计图  
 [全球高考人物词频统计-柱状图](https://shuanx2.github.io/name_count_bar.html)  
 [全球高考人物词频统计-象形柱状图](https://shuanx2.github.io/name_count_pictorialbar.html)
-## 2. 
+## 2. 地理连线图
+## 3. 中国地图、世界地图
+## 4. 组合图表
