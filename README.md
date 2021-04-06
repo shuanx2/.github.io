@@ -1,10 +1,11 @@
 # 计算机科学与编程入门课程第二次作业
 ## 学号 2000091833 姓名 沈攸晋  
 ## 1. 人物词频统计图
-基于第一周统计的《全球高考》人物词频统计结果，制作词频统计图  
+基于《红楼梦》的人物词频统计结果，制作词频统计图  
   
-[全球高考人物词频统计-柱状图](https://shuanx2.github.io/name_count_bar.html)  
-[全球高考人物词频统计-象形柱状图](https://shuanx2.github.io/name_count_pictorialbar.html)  
+[《红楼梦》人物词频统计-词云](https://shuanx2.github.io/name_count_wordcloud.html)  
+[《红楼梦》人物词频统计-柱状图](https://shuanx2.github.io/name_count_bar.html)  
+[《红楼梦》人物词频统计-象形柱状图](https://shuanx2.github.io/name_count_pictorialbar.html)  
 ## 2. 地理连线图
 shuanx2的朋友们来自世界各地！亚洲、欧洲、美洲大陆都能够找到她的朋友。有一天她决定沿着朋友们的家，完成一次环球旅行！第一站是日本，这里有她的朋友阿莉莎和望月；紧接着她就近来到了韩国，这里不仅有朋友欢呼、咸鱼和秀燕，还是shuanx2的故乡。  
 下一站她离开了亚洲大陆，来到了欧洲，海宁和Paul一人来自德国，一人来自法国，跨越这两个相邻的国家只需要乘坐火车噢！  
