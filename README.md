@@ -14,4 +14,7 @@ shuanx2的朋友们来自世界各地！亚洲、欧洲、美洲大陆都能够�
   
 [shuanx2的环球旅行](https://shuanx2.github.io/worldtravel.html)  
 ## 3. 中国地图、世界地图
+根据2020中国GDP总量统计结果，制作附色阶的全国GDP总量数据图。（注：港澳台数据为预测数据）  
+  
+[2020全国GDP总量数据图](https://shuanx2.github.io/GDP2020.html)
 ## 4. 组合图表
