@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="c09a36f445014e60a9ac5acc96bef3b7" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_c09a36f445014e60a9ac5acc96bef3b7 = echarts.init(
+            document.getElementById('c09a36f445014e60a9ac5acc96bef3b7'), 'white', {renderer: 'canvas'});
+        var option_c09a36f445014e60a9ac5acc96bef3b7 = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "map",
+                "name": "\u5546\u54c1A\u9500\u91cf\uff08\u5355\u4f4d\uff1a\u4e07\uff09",
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                },
+                "mapType": "world",
+                "data": [
+                    {
+                        "name": "China",
+                        "value": 60
+                    },
+                    {
+                        "name": "Canada",
+                        "value": 133
+                    },
+                    {
+                        "name": "Brazil",
+                        "value": 135
+                    },
+                    {
+                        "name": "Russia",
+                        "value": 145
+                    },
+                    {
+                        "name": "United States",
+                        "value": 57
+                    },
+                    {
+                        "name": "Africa",
+                        "value": 44
+                    },
+                    {
+                        "name": "Germany",
+                        "value": 45
+                    }
+                ],
+                "roam": true,
+                "aspectScale": 0.75,
+                "nameProperty": "name",
+                "selectedMode": false,
+                "zoom": 1,
+                "mapValueCalculation": "sum",
+                "showLegendSymbol": true,
+                "emphasis": {},
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "data": [
+                "2016\u5e74",
+                "2017\u5e74",
+                "2018\u5e74",
+                "2019\u5e74",
+                "2020\u5e74"
+            ]
+        },
+        "visualMap": {
+            "show": true,
+            "type": "continuous",
+            "min": 0,
+            "max": 100,
+            "inRange": {
+                "color": [
+                    "#50a3ba",
+                    "#eac763",
+                    "#d94e5d"
+                ]
+            },
+            "calculable": true,
+            "inverse": false,
+            "splitNumber": 5,
+            "orient": "vertical",
+            "showLabel": true,
+            "itemWidth": 20,
+            "itemHeight": 140,
+            "borderWidth": 0
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u5546\u54c1A\u9500\u91cf\uff08\u5355\u4f4d\uff1a\u4e07\uff09"
+                    ],
+                    "selected": {
+                        "\u5546\u54c1A\u9500\u91cf\uff08\u5355\u4f4d\uff1a\u4e07\uff09": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u5546\u54c1A\u9500\u91cf\uff08\u5355\u4f4d\uff1a\u4e07\uff09",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "world",
+                    "data": [
+                        {
+                            "name": "China",
+                            "value": 122
+                        },
+                        {
+                            "name": "Canada",
+                            "value": 142
+                        },
+                        {
+                            "name": "Brazil",
+                            "value": 55
+                        },
+                        {
+                            "name": "Russia",
+                            "value": 49
+                        },
+                        {
+                            "name": "United States",
+                            "value": 134
+                        },
+                        {
+                            "name": "Africa",
+                            "value": 70
+                        },
+                        {
+                            "name": "Germany",
+                            "value": 104
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2016\u5e74\u5546\u54c1A\u5168\u7403\u9500\u91cf\u60c5\u51b5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 100,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u5546\u54c1A\u9500\u91cf\uff08\u5355\u4f4d\uff1a\u4e07\uff09"
+                    ],
+                    "selected": {
+                        "\u5546\u54c1A\u9500\u91cf\uff08\u5355\u4f4d\uff1a\u4e07\uff09": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u5546\u54c1A\u9500\u91cf\uff08\u5355\u4f4d\uff1a\u4e07\uff09",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "world",
+                    "data": [
+                        {
+                            "name": "China",
+                            "value": 106
+                        },
+                        {
+                            "name": "Canada",
+                            "value": 60
+                        },
+                        {
+                            "name": "Brazil",
+                            "value": 110
+                        },
+                        {
+                            "name": "Russia",
+                            "value": 149
+                        },
+                        {
+                            "name": "United States",
+                            "value": 121
+                        },
+                        {
+                            "name": "Africa",
+                            "value": 114
+                        },
+                        {
+                            "name": "Germany",
+                            "value": 134
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2017\u5e74\u5546\u54c1A\u5168\u7403\u9500\u91cf\u60c5\u51b5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 100,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u5546\u54c1A\u9500\u91cf\uff08\u5355\u4f4d\uff1a\u4e07\uff09"
+                    ],
+                    "selected": {
+                        "\u5546\u54c1A\u9500\u91cf\uff08\u5355\u4f4d\uff1a\u4e07\uff09": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u5546\u54c1A\u9500\u91cf\uff08\u5355\u4f4d\uff1a\u4e07\uff09",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "world",
+                    "data": [
+                        {
+                            "name": "China",
+                            "value": 34
+                        },
+                        {
+                            "name": "Canada",
+                            "value": 102
+                        },
+                        {
+                            "name": "Brazil",
+                            "value": 90
+                        },
+                        {
+                            "name": "Russia",
+                            "value": 125
+                        },
+                        {
+                            "name": "United States",
+                            "value": 25
+                        },
+                        {
+                            "name": "Africa",
+                            "value": 144
+                        },
+                        {
+                            "name": "Germany",
+                            "value": 115
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2018\u5e74\u5546\u54c1A\u5168\u7403\u9500\u91cf\u60c5\u51b5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 100,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u5546\u54c1A\u9500\u91cf\uff08\u5355\u4f4d\uff1a\u4e07\uff09"
+                    ],
+                    "selected": {
+                        "\u5546\u54c1A\u9500\u91cf\uff08\u5355\u4f4d\uff1a\u4e07\uff09": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u5546\u54c1A\u9500\u91cf\uff08\u5355\u4f4d\uff1a\u4e07\uff09",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "world",
+                    "data": [
+                        {
+                            "name": "China",
+                            "value": 118
+                        },
+                        {
+                            "name": "Canada",
+                            "value": 28
+                        },
+                        {
+                            "name": "Brazil",
+                            "value": 137
+                        },
+                        {
+                            "name": "Russia",
+                            "value": 142
+                        },
+                        {
+                            "name": "United States",
+                            "value": 70
+                        },
+                        {
+                            "name": "Africa",
+                            "value": 102
+                        },
+                        {
+                            "name": "Germany",
+                            "value": 49
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2019\u5e74\u5546\u54c1A\u5168\u7403\u9500\u91cf\u60c5\u51b5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 100,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u5546\u54c1A\u9500\u91cf\uff08\u5355\u4f4d\uff1a\u4e07\uff09"
+                    ],
+                    "selected": {
+                        "\u5546\u54c1A\u9500\u91cf\uff08\u5355\u4f4d\uff1a\u4e07\uff09": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u5546\u54c1A\u9500\u91cf\uff08\u5355\u4f4d\uff1a\u4e07\uff09",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "world",
+                    "data": [
+                        {
+                            "name": "China",
+                            "value": 60
+                        },
+                        {
+                            "name": "Canada",
+                            "value": 133
+                        },
+                        {
+                            "name": "Brazil",
+                            "value": 135
+                        },
+                        {
+                            "name": "Russia",
+                            "value": 145
+                        },
+                        {
+                            "name": "United States",
+                            "value": 57
+                        },
+                        {
+                            "name": "Africa",
+                            "value": 44
+                        },
+                        {
+                            "name": "Germany",
+                            "value": 45
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "2020\u5e74\u5546\u54c1A\u5168\u7403\u9500\u91cf\u60c5\u51b5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 100,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        }
+    ]
+};
+        chart_c09a36f445014e60a9ac5acc96bef3b7.setOption(option_c09a36f445014e60a9ac5acc96bef3b7);
+    </script>
+</body>
+</html>
