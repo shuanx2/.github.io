@@ -38,3 +38,18 @@
 * 集合2010-2020的中国内地GDP总量数据，制作分年统计图、占比饼图，以及2010-2020的变化折线图。  
   
 [2010-2020全国GDP总量数据统计](https://shuanx2.github.io/china_gdp_from_2010_to_2020.html)  
+> ## 8. 时空数据可视化（Python-Pyecharts/Matplotlib）  
+* 对图书情报有关文献数据做处理与可视化。  
+  
+[不同学报文章的参考文献时间跨度甘特图](gantt.jpg)  
+[2001-2010高频关键词变化图](https://shuanx2.github.io/timeline.html)  
+[地名在文献标题中出现次数地图](https://shuanx2.github.io/titlemap.html)  
+[不同学报之间的引证关系地理连线图](https://shuanx2.github.io/line.html)  
+> ## 9. 文本数据可视化（Python-Pyecharts/Matplotlib）  
+* 对推特的发布者信息、地点、内容、话题等详情做数据处理，输出可视化结果。  
+  
+[出现频率最高的话题词云](https://shuanx2.github.io/hashtagscnt.html)  
+[每小时热度前十的话题变化时间线](https://shuanx2.github.io/hashtagtimeline.html)  
+[发推语言统计饼图](langcnt.jpg)  
+[不同时间段发帖数变化曲线](twinum.jpg)  
+[点赞转推双维度散点分布](scatter.jpg)
